@@ -1,0 +1,19 @@
+%flexx-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+%flexx-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+%fondo{
+    background-image: url(../assets/img/backgrouds/bg7.jpg);
+    background-attachment: map-get($posiciones,fx);
+    background-position: map-get($posiciones,centro);
+    background-repeat: map-get($posiciones,no-rep);
+    background-size:map-get($posiciones,cubrir);
+}

@@ -1,0 +1,236 @@
+.favIcon, #pie, .titulos, .titulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tamImg, .prod, .titDis2, .marco, .texto, .encabezado, .marcoHome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.productos, .ubYdev, .home {
+  background-image: url(../assets/img/backgrouds/bg7.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.colornav:link {
+  color: white;
+}
+
+.decoracion--footer {
+  padding-left: 1.15rem;
+  padding-right: 1.15rem;
+  padding-top: 1.5rem;
+  width: 15%;
+}
+
+.colornav {
+  color: white;
+}
+
+.colorcar {
+  color: black;
+}
+
+body {
+  text-align: center;
+  font-family: "Caveat", serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.decoracion {
+  padding: 15px;
+  width: 75%;
+  justify-items: center;
+}
+
+footer {
+  font-size: 1.25rem;
+  padding-top: 50px;
+  color: white;
+}
+
+.footer--im {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.container1 {
+  max-width: 100%;
+}
+
+.container2 {
+  max-width: 25%;
+}
+
+.container3 {
+  max-width: 75%;
+}
+
+.marcoHome {
+  border: 5px rgb(253, 211, 0) outset;
+  background: linear-gradient(90deg, rgba(41, 45, 118, 0.729) 6%, rgb(91, 58, 157) 67%);
+  text-align: center;
+  padding-top: 5px;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  font-family: "Caveat", serif;
+  font-weight: 50;
+  color: white;
+  width: 80%;
+  height: 50%;
+}
+
+.navegacion {
+  background: linear-gradient(rgba(86, 42, 218, 0.729) 6%, rgba(29, 7, 228, 0.729) 98%);
+  font-size: 1.15rem;
+  margin: auto;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.containerTxt {
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.containerDiv {
+  margin: auto;
+}
+
+.encabezado {
+  font-family: "Caveat", serif;
+  font-size: 1.85rem;
+  padding: 15px;
+  font-weight: 500;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 0.04rem;
+}
+
+.titulo {
+  font-family: "Caveat", serif;
+  font-size: 2.5;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 0.04rem;
+  font-stretch: ultra-expanded;
+  font-weight: 500;
+  margin: auto;
+  padding: 15px;
+}
+
+.titulos {
+  font-family: "Caveat", serif;
+  font-size: 2.5;
+  font-stretch: ultra-expanded;
+  padding: 15px;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 0.04rem;
+}
+
+.texto {
+  border: 5px rgb(253, 211, 0) outset;
+  background: linear-gradient(90deg, rgba(41, 45, 118, 0.729) 6%, rgb(91, 58, 157) 67%);
+  text-align: center;
+  padding-top: 5px;
+  margin: 0 auto;
+  width: 340px;
+  height: 250px;
+  font-size: 1.15rem;
+  font-family: "Caveat", serif;
+  font-weight: 50;
+  color: white;
+}
+
+.marco {
+  border: 5px rgb(253, 211, 0) outset;
+  background: linear-gradient(90deg, rgba(41, 45, 118, 0.729) 6%, rgb(91, 58, 157) 67%);
+  text-align: center;
+  padding-top: 5px;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  font-family: "Caveat", serif;
+  font-weight: 50;
+  color: white;
+}
+
+.mapa {
+  background: linear-gradient(90deg, rgba(41, 45, 118, 0.729) 6%, rgb(91, 58, 157) 67%);
+  padding: 5px;
+  margin: 0 auto;
+  width: 340px;
+  height: 250px;
+  border: 5px rgb(253, 211, 0) outset;
+}
+
+.grande:hover {
+  transform: scale(1.25);
+  background-color: linear-gradient(rgba(86, 42, 218, 0.729) 6%, rgba(29, 7, 228, 0.729) 98%);
+}
+
+.medio2 {
+  margin: 0 auto;
+}
+
+.boton {
+  background-color: rgba(148, 149, 233, 0.531);
+  margin: 5px;
+}
+
+.titDis2 {
+  border: 5px rgb(253, 211, 0) outset;
+  font-family: "Caveat", serif;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  padding: 15px;
+  color: white;
+  background: linear-gradient(90deg, rgba(41, 45, 118, 0.729) 6%, rgb(91, 58, 157) 67%);
+  justify-content: center;
+}
+
+.prod {
+  border: 5px rgb(253, 211, 0) outset;
+  background: linear-gradient(90deg, rgba(41, 45, 118, 0.729) 6%, rgb(91, 58, 157) 67%);
+  padding: auto;
+}
+
+.texto__prod {
+  margin: 0 auto;
+  font-size: 1.25rem;
+  text-align: center;
+  font-family: "Caveat", serif;
+  color: white;
+}
+
+.tamImg {
+  width: auto;
+}
+
+.tamText {
+  width: 315px;
+}
+
+.favIcon {
+  width: 50%;
+  margin: 0%;
+}
+
+/*# sourceMappingURL=styles.css.map */

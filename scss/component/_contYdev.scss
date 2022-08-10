@@ -1,0 +1,101 @@
+
+.navegacion{
+    background: nth($color-fondo,2);
+    font-size: nth($letra_tam,2);
+    margin: nth($position,1);
+    color: nth($colores,1);
+    font-family: nth($letra_dise,3), nth($letra_dise,4);
+}
+
+ .ubYdev{
+    @extend %fondo;
+}
+
+.containerTxt{
+    margin: map-get($posiciones,automatico);
+    display: flex;
+    align-items: center;
+}
+
+.containerDiv{
+    margin: map-get($posiciones,automatico);
+}
+
+.encabezado{
+    @extend %flexx-col;
+    font-family: nth($letra_dise,1), nth($letra_dise,2);
+    font-size: nth($letra_tam, 5);
+    padding: nth($pixeles,3);
+    font-weight: 500;
+    -webkit-text-fill-color: nth($colores,1);
+    -webkit-text-stroke: 0.04rem;
+ }
+
+.titulo{
+    font-family: nth($letra_dise,1), nth($letra_dise,2);
+    font-size: nth($letra_tam, 7);
+    @extend %flexx-row;
+    -webkit-text-fill-color: nth($colores,1);
+    -webkit-text-stroke: 0.04rem;
+    font-stretch:ultra-expanded;
+    font-weight: 500;
+    margin: map-get($posiciones,automatico);
+    padding: nth($pixeles,3);
+ }
+
+ .titulos{
+    font-family: nth($letra_dise,1), nth($letra_dise,2);
+    font-size: nth($letra_tam, 7);
+    font-stretch:ultra-expanded;
+    padding: nth($pixeles,3);
+    -webkit-text-fill-color: nth($colores,1);
+    -webkit-text-stroke: 0.04rem;
+    @extend %flexx-row;
+ }
+
+.texto {
+    @extend %flexx-col;
+    @include bordes($pix, $col, $tipo);
+    background: nth($color-fondo,1);
+    text-align: map-get($posiciones,centro);
+    padding-top: nth($pixeles,1);
+    margin: map-get($posiciones,centrar);
+    width: nth($pixeles,7);
+    height: nth($pixeles,6);
+    font-size: nth($letra_tam, 2);
+    font-family: nth($letra_dise,1), nth($letra_dise,2);
+    font-weight: 50;
+    color: nth($colores,1);
+}
+
+.marco {
+    @extend %flexx-col;
+    @include bordes($pix, $col, $tipo);
+    background: nth($color-fondo,1);
+    text-align: map-get($posiciones,centro);
+    padding-top: nth($pixeles,1);
+    margin: map-get($posiciones,centrar);
+    font-size: nth($letra_tam, 4);
+    font-family: nth($letra_dise,1), nth($letra_dise,2);
+    font-weight: 50;
+    color: nth($colores,1);
+}
+
+.mapa {
+    background: nth($color-fondo,1);
+    padding: nth($pixeles,1);
+    margin: map-get($posiciones,centrar);
+    width: nth($pixeles,7);
+    height: nth($pixeles,6);
+    @include bordes($pix, $col, $tipo);
+}
+
+.grande:hover{
+    transform: scale(1.25);
+    background-color: nth($color-fondo,2);
+ }
+
+
+ #pie {
+    @extend %flexx-row;
+}

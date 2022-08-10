@@ -1,0 +1,4 @@
+@mixin bordes($pix,$colore, $tipo){
+    border: $pix nth($colores,3) $tipo;
+}
+
